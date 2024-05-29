@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "simulai-startup",
+  "private_key_id": "6eed259cc9dcb3b4cd03f46fdb736af33879583f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCiN9f8ocCaRJEW\n/8w5+Et+kwtcf4qCrOXT/JQOo/Z1vQuYbRBtkXY1nDlQ1Ffxuy4WPTns6hb34FS2\n5dL9XnIXJydMZFYJ9xv4YjBGxikdBYr8OXIitzGwMZhXZJ5uRCfmptopewxkLNJg\nssdKLl/m1dgkAXzE48wRZRvKamEHQDp+mU5ekRGnzUSphnT5LcN+1AYDHYktYCCu\nujFpRLwpuryCOkPLioQB4SDTYsBjdJxxCNAEnBZ0Bymh5WaQjYgTAOdTMuBpl2rR\nBdoP7CtBPNIazizR8OaxQvvMP+QiL2oegUzH/CPGWoUOgikLkrL7SlsaOmyfYM1E\nndFV/9FJAgMBAAECggEAANn6MEFJGYYynMRK9iLvgoKTFLE2sOjna+1veYQyzvtn\nDC3GYEzbKfzf8CStMX+iBkvb+fpglHyA9VTPfrT4NFboReZg7Tx20R7y0exIWvak\nfB5xEu2TPTGFcy/8BOgmrXdCveT/c6cok4lcsm774eJNeCLp3L61W4IEW1Ojnr4d\nbJtW9rQQOMWDUknP+mMARA2fUtMevN3l7+KY3v0iQuKF+RGQhQQJBarPvR7ZGyv3\nlVNM+/JBMYjw4c1jD+Y2yAdD2Gyz9nUNQ6kVGvr8tNr1dtS/abMcanCVvEcYS82D\nfo3LP0/oE7oJlL56gvp3oKkUbkgO91EpXcZsiDLdgQKBgQDRhgMLgfHPj741Z0AE\n6virN3JmQfZBm5f2NjVrUaED4ag7Xz+vLHFzUv9L7OAdJzPbUlueejoIzRRZswMz\npi6xCJUwuUvW2Zc+VzuObwWUoaeLBfP2yvCIs/B3jAGnQ34GRmRCjXY1Pyxn0Jka\n1GhgJ+xs+nBokbJ1cGST4pOCnQKBgQDGM42mjPlcQ2tE/PdbEfGh6bJ1v1W+piVV\ny3hN16LKIMpsmmSPuXnH+WyxOukqqZgBpXXktJ+3e6+GcyYFTqFPayFje7oZEjjw\naSj7NatJWGPscnZO/ytxrDSeZlKl4FKoQlFH6sff6tDcqQdgeublVdE2CpZ7loQo\n/g3ZRD5jnQKBgAMdKMJtBfj9u+fzRuJL07JHuq2GYXCMLW/9UkHsDqaOHf/z5HBo\nCq+aFi08sf/86yphSPdL/bzPv3Ot02hbGeqLpBv7RQNGbJcCmOH/CGgzFthcGEoc\nrgJ6GiLMs+GWgTL6rNbIX29fJvvL/9qEOaDkNwFPn4gOUkaoivYfse2JAoGAErhf\n0rFSBCLiCNwTyOhC+FYIYxK1WJJ8yEO1kzSgzZKXS/axNNoB5J9sYrj7uOnXz5//\nKKDezQfDpmFN4AZzOfsWZj0TcLbF5f8ovcFt8jmFBpoxDnkPc2ceeS+U8tHjPL02\nzCIiysV1AMJ+TeCN2m9mmUIawIWQ6gZE7JaDhgkCgYBBStWf4Q50RdZhSqyDg7oa\nj7dr//GNX7mZNEKGMXcyDvePa2jO9Emu7KpNDGN8mGAIQH2IzsgHDaxq2Q4C9zLw\nVqCCC+3Rps6QeH3ov/HeYTFFn3/JWNSEdQuN6IpSVGo3gsM+7bevcZzCU1LLamd3\nPK+UL5neWSS7QwtO5EnPHg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "simulai@simulai-startup.iam.gserviceaccount.com",
+  "client_id": "110658390355730244412",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/simulai%40simulai-startup.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
