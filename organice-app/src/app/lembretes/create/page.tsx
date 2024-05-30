@@ -13,6 +13,12 @@ const CreateLembrete = () => {
   const [fim, setFim] = useState('');
   const router = useRouter();
 
+  const formatDate = (dateStr) => {
+    const date = new Date(dateStr);
+    const options = { day: '2-digit', month: 'short', year: 'numeric' };
+    return date.toLocaleDateString('en-GB', options).replace(/ /g, '-');
+  };
+
   useEffect(() => {
       // Redirect if no token is found in localStorage
       if (localStorage.getItem("dia")) {
@@ -44,8 +50,8 @@ const CreateLembrete = () => {
     const lembreteIn = {
       title,
       description,
-      inicio,
-      fim,
+      inicio: formatDate(inicio),  // Formatting the date
+      fim: formatDate(fim), 
     };
 
     try {
@@ -103,20 +109,18 @@ const CreateLembrete = () => {
             </div>
             <div>
               <input
-                type="text"
+                type="date"
                 value={inicio}
                 onChange={(e) => setInicio(e.target.value)}
-                placeholder="Start Time"
                 required
                 className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-green-500 text-black"
               />
             </div>
             <div>
               <input
-                type="text"
+                type="date"
                 value={fim}
                 onChange={(e) => setFim(e.target.value)}
-                placeholder="End Time"
                 required
                 className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-green-500 text-black"
               />

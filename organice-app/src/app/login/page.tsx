@@ -42,8 +42,9 @@ const Login = () => {
         router.push('/');
     })
     .catch(error => {
-      localStorage.setItem('token', 'eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI4YmE1NjE3ZC01MTJlLTRjM2UtOTI0NC1jNmRhODVhZGM1NDUiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJFZHVhcmRvIFYiLCJyb2xlIjoicmVndWxhciIsIm5iZiI6MTcxNjk1MDIwMiwiZXhwIjoxNzQ4NDg2MjAyfQ.PwXuBkmry0tcxBHv1z0Doz95v7KitjGPxBf4Ywcqc5BxhBmtqEwmAmb-ugop_xsmW4iRSGIgcQp3SgIbW2iENA');
-      router.push('/');
+      console.error(error);
+      // localStorage.setItem('token', 'eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiI4YmE1NjE3ZC01MTJlLTRjM2UtOTI0NC1jNmRhODVhZGM1NDUiLCJpc3MiOiJJbjVwRXIiLCJzdWIiOiJFZHVhcmRvIFYiLCJyb2xlIjoicmVndWxhciIsIm5iZiI6MTcxNjk1MDIwMiwiZXhwIjoxNzQ4NDg2MjAyfQ.PwXuBkmry0tcxBHv1z0Doz95v7KitjGPxBf4Ywcqc5BxhBmtqEwmAmb-ugop_xsmW4iRSGIgcQp3SgIbW2iENA');
+      // router.push('/');
     });
   };
 
